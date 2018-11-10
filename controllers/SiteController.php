@@ -4,6 +4,8 @@ namespace app\controllers;
 
 use yii\web\Controller;
 use app\models\EntryForm;
+use app\models\title;
+use app\models\paragraf;
 use Yii;
 //use GuzzleHttp\Client; // подключаем Guzzle
 use yii\helpers\Url;
@@ -29,27 +31,20 @@ class SiteController extends Controller {
             return $this->render('entry', ['model' => $model]);
         }
     }
+    
+    public function actionAdmin() {
+        $title = new title();
+        $paragraf = new paragraf();
 
-    public function actionMeteo() {
-
-        // создаем экземпляр класса
-        $client = new Client();
-        // отправляем запрос к странице Яндекса
-        //$res = $client->request('GET', 'https://ya.ru');
-        $res = $client->createRequest()
-                ->setMethod('post')
-                ->setUrl('https://www.gismeteo.ru/diary/4638/2018/10/')
-                ->setData(['Year' => '2018',
-                    'sd_country' => 'Россия',
-                    'sd_distr' => 'Красноярский край',
-                    'sd_city' => 'Мотыгино',
-                    'Month' => 'Октябрь'])
-                ->send();
-        // получаем данные между открывающим и закрывающим тегами body
-        //$body = $res->getBody();
-        $body = $res->content;
-        // вывод страницы Яндекса в представление
-        return $this->render('meteo', ['body' => $body]);
+        if (($title->load(Yii::$app->request->post()) && $title->validate())
+            and ($paragraf->load(Yii::$app->request->post()) && $paragraf->validate())) {
+            return $this->render('kafedra', ['title' => $title, 
+                'paragraf' => $paragraf]);
+        } else {
+            // либо страница отображается первый раз, либо есть ошибка в данных
+            return $this->render('admin', ['title' => $title, 
+                'paragraf' => $paragraf]);
+        }
     }
 
 }
