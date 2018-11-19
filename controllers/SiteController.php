@@ -48,8 +48,10 @@ class SiteController extends Controller {
         // получаем данные между открывающим и закрывающим тегами body
         //$body = $res->getBody();
         $body = $res->content;
+        $document = \phpQuery::newDocumentHTML($body);
+        $news = $document->find("div.container"); 
         // вывод страницы Яндекса в представление
-        return $this->render('meteo', ['body' => $body]);
+        return $this->render('meteo', ['body' => $news]);
     }
 
 }
