@@ -2,11 +2,13 @@
 
 namespace app\controllers;
 
+use app\models\core;
 use yii\web\Controller;
-use app\models\EntryForm;
 use Yii;
-use app\models\Title;
-use app\models\Paragraph;
+use app\models\core\Page;
+use app\models\core\Title;
+use app\models\core\Paragraph;
+
 
 class SiteController extends Controller {
 
@@ -14,46 +16,11 @@ class SiteController extends Controller {
         return "Hello World!";
     }
 
-    public function actionEntry() {
-        $model = new EntryForm();
-
-        if ($model->load(Yii::$app->request->post()) && $model->validate()) {
-            // данные в $model удачно проверены
-            // делаем что-то полезное с $model ...
-            $model->save();
-            $model::updateAll(['email' => '0'], ['name' => 'name']);
-            return $this->render('entry-confirm', ['model' => $model]);
-        } else {
-            // либо страница отображается первый раз, либо есть ошибка в данных
-            return $this->render('entry', ['model' => $model]);
-        }
-    }
-
-    public function actionIts() {
-        //$title = new Title();
-        $title = Title::findOne('1');
-        //$paragraph = new Paragraph();
-        $paragraph = Paragraph::findOne('1');
-        
-        if (($title->load(Yii::$app->request->post()) && $title->validate()) &&
-                ($paragraph->load(Yii::$app->request->post()) && $paragraph->validate())) {
-            // данные в $model удачно проверены
-            // делаем что-то полезное с $model ...
-            //$title->save();
-            //$title::updateAll(['id' => '1'], ['name' => 'name']);
-            $title->id=1;
-            $title->save();
-            $title->update();
-            //$paragraph->save();
-            //$paragraph::updateAll(['id' => '1'], ['name' => 'name']);
-            $paragraph->id=1;
-            $paragraph->save();
-            $paragraph->update();
-            return $this->render('its-admin', ['title' => $title, 'paragraph' => $paragraph]);
-        } else {
-            // либо страница отображается первый раз, либо есть ошибка в данных
-            return $this->render('its', ['title' => $title, 'paragraph' => $paragraph]);
-        }
+    public function actionIts() {        
+        //$model = new Page();
+        $model = new Paragraph(new Title(new Page()));
+        $this->layout = '@app/views/layouts/mainits';
+        return $this->render('its', ['model' => $model]);
     }
 
 }
