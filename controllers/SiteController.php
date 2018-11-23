@@ -25,8 +25,8 @@ class SiteController extends Controller {
     }
     
     public function actionRrrr() {
-        $model= new \app\models\rrrr();
-        
+        $model= new rrrr();
+        $this->layout = '@app/views/layouts/mainrrrr';
         return $this->render('rrrr', ['model' => $model]);
     }
 
