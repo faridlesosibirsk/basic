@@ -4,46 +4,87 @@ use yii\helpers\Html;
 ?>
 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 <div id="chart_div"></div>
+<script type="text/javascript">
+    google.charts.load('current', {'packages': ['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
 
-<script>
-    google.charts.load('current', {packages: ['corechart', 'line']});
-    google.charts.setOnLoadCallback(drawBasic);
-
-    function drawBasic() {
+    function drawChart() {
 
         var data = new google.visualization.DataTable();
-        data.addColumn('number', 'X');
-        data.addColumn('number', 'Temperature');
+        data.addColumn('datetime', 'Time of Day');
+        data.addColumn('number', 'Motivation Level');
 
         data.addRows([
-            [0, 0], [1, 10], [2, 23], [3, 17], [4, 18], [5, 9],
-            [6, 11], [7, 27], [8, 33], [9, 40], [10, 32], [11, 35],
-            [12, 30], [13, 40], [14, 42], [15, 47], [16, 44], [17, 48],
-            [18, 52], [19, 54], [20, 42], [21, 55], [22, 56], [23, 57],
-            [24, 60], [25, 50], [26, 52], [27, 51], [28, 49], [29, 53],
-            [30, 55], [31, 60], [32, 61], [33, 59], [34, 62], [35, 65],
-            [36, 62], [37, 58], [38, 55], [39, 61], [40, 64], [41, 65],
-            [42, 63], [43, 66], [44, 67], [45, 69], [46, 69], [47, 70],
-            [48, 72], [49, 68], [50, 66], [51, 65], [52, 67], [53, 70],
-            [54, 71], [55, 72], [56, 73], [57, 75], [58, 70], [59, 68],
-            [60, 64], [61, 60], [62, 65], [63, 67], [64, 68], [65, 69],
-            [66, 70], [67, 72], [68, 75], [69, 80]
+            [new Date(2015, 0, 1, 0), -5], [new Date(2015, 0, 1, 0, 30), 5.1],
+            [new Date(2015, 0, 1, 1), 6.2], [new Date(2015, 0, 1, 2), 7],
+            [new Date(2015, 0, 1, 3), 6.4], [new Date(2015, 0, 1, 4), 3],
+            [new Date(2015, 0, 1, 5), 4], [new Date(2015, 0, 1, 6), 4.2],
+            [new Date(2015, 0, 1, 7), 1], [new Date(2015, 0, 1, 8), 2.7],
+            [new Date(2015, 0, 1, 9), 3.9], [new Date(2015, 0, 1, 10), 3.8],
+            [new Date(2015, 0, 1, 11), 5], [new Date(2015, 0, 1, 12), 6.2],
+            [new Date(2015, 0, 1, 13), 7.8], [new Date(2015, 0, 1, 14), 9.1],
+            [new Date(2015, 0, 1, 15), 8], [new Date(2015, 0, 1, 16), 6.8],
+            [new Date(2015, 0, 1, 17), 7.2], [new Date(2015, 0, 1, 18), 4],
+            [new Date(2015, 0, 1, 19), 5.9], [new Date(2015, 0, 1, 20), 6.3],
+            [new Date(2015, 0, 1, 21), 6], [new Date(2015, 0, 1, 22), 3],
+            [new Date(2015, 0, 1, 23), 2.2], [new Date(2015, 0, 2, 0), 2.4],
+            [new Date(2015, 0, 2, 1), 3.6], [new Date(2015, 0, 2, 2), 4],
+            [new Date(2015, 0, 2, 3), 5.5], [new Date(2015, 0, 2, 4), 7.1],
+            [new Date(2015, 0, 2, 5), 6], [new Date(2015, 0, 2, 6), 7.8],
+            [new Date(2015, 0, 2, 7), 8.2], [new Date(2015, 0, 2, 8), 9],
         ]);
 
         var options = {
-            hAxis: {
-                title: 'Days'
+            width: 900,
+            height: 500,
+            legend: {position: 'none'},
+            enableInteractivity: false,
+            chartArea: {
+                width: '85%'
             },
-            vAxis: {
-                title: 'Temperature'
+            hAxis: {
+                viewWindow: {
+                    min: new Date(2014, 11, 31, 18),
+                    max: new Date(2015, 0, 3, 1)
+                },
+                gridlines: {
+                    count: -1,
+                    units: {
+                        days: {format: ['MMM dd']},
+                        hours: {format: ['HH:mm', 'ha']},
+                    }
+                },
+                minorGridlines: {
+                    units: {
+                        hours: {format: ['hh:mm:ss a', 'ha']},
+                        minutes: {format: ['HH:mm a Z', ':mm']}
+                    }
+                }
             }
         };
 
-        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+        var chart = new google.visualization.LineChart(
+                document.getElementById('chart_div'));
 
         chart.draw(data, options);
-    }
-</script>
 
+        var button = document.getElementById('change');
+        var isChanged = false;
+
+        button.onclick = function () {
+            if (!isChanged) {
+                options.hAxis.viewWindow.min = new Date(2015, 0, 1);
+                options.hAxis.viewWindow.max = new Date(2015, 0, 1, 3);
+                isChanged = true;
+            } else {
+                options.hAxis.viewWindow.min = new Date(2014, 11, 31, 18),
+                        options.hAxis.viewWindow.max = new Date(2015, 0, 3, 1)
+                isChanged = false;
+            }
+            chart.draw(data, options);
+        };
+    }
+
+</script>
 <?= $model->get(); ?>
 
