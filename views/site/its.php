@@ -2,4 +2,4 @@
 
 use yii\helpers\Html;
 ?>
-<?= $model['Page']; ?>
+<?= Html::encode($model->Print()) ?>
