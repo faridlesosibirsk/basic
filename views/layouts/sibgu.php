@@ -18,11 +18,11 @@
 
     <link href="css/website.assets_frontend.0.css" rel="stylesheet">
     <link href="css/website.assets_frontend.1.css" rel="stylesheet">
-    <link rel="shortcut icon" href="/sibgu/static/src/images/sibgu/img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="/sibgu/static/src/images/sibgu/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/sibgu/static/src/images/sibgu/img/favicon/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/sibgu/static/src/images/sibgu/img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="/sibgu/static/src/images/sibgu/img/favicon/manifest.json">
+    <link rel="shortcut icon" href="images/sibgu/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sibgu/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/sibgu/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/sibgu/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="images/sibgu/img/favicon/manifest.json">
     <meta name="theme-color" content="#006CB5">
     <meta name="msapplication-navbutton-color" content="#006CB5">
     <meta name="apple-mobile-web-app-status-bar-style" content="#006CB5">
@@ -33,11 +33,11 @@
     <style type="text/css"></style>
 
     <script type="text/javascript" src="/web/content/12438-cca18e1/website.assets_frontend.js"></script>
-    <link rel="shortcut icon" href="/sibgu/static/src/images/sibgu/img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="image/png" sizes="32x32" href="/sibgu/static/src/images/sibgu/img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/sibgu/static/src/images/sibgu/img/favicon/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/sibgu/static/src/images/sibgu/img/favicon/apple-touch-icon.png">
-    <link rel="manifest" href="/sibgu/static/src/images/sibgu/img/favicon/manifest.json">
+    <link rel="shortcut icon" href="images/sibgu/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/sibgu/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/sibgu/img/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/sibgu/img/favicon/apple-touch-icon.png">
+    <link rel="manifest" href="images/sibgu/img/favicon/manifest.json">
     <meta name="theme-color" content="#006CB5">
     <meta name="msapplication-navbutton-color" content="#006CB5">
     <meta name="apple-mobile-web-app-status-bar-style" content="#006CB5">
@@ -616,20 +616,20 @@
 
                             <div class="dropdown flag-links">
                                 <button class="btn btn-default dropdown-toggle btn-ru" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                        <img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/flags/ru.svg" alt="RU">
+                                        <img class="img-responsive" src="images/sibgu/img/flags/ru.svg" alt="RU">
                                     </button>
                                 <ul class="dropdown-menu dropdown-flags" aria-labelledby="dropdownMenu1">
                                     <li>
-                                        <a target="_blank" href="http://en.sibsau.ru/"><img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/flags/gb.svg" alt="EN" title="EN"></a>
+                                        <a target="_blank" href="http://en.sibsau.ru/"><img class="img-responsive" src="/images/sibgu/img/flags/gb.svg" alt="EN" title="EN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/NsN3Z7Bsc7qKT9M/"><img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/flags/cn.svg" alt="CN" title="CN"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/NsN3Z7Bsc7qKT9M/"><img class="img-responsive" src="images/sibgu/img/flags/cn.svg" alt="CN" title="CN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/BgcwfBvyWLqFqOr/"><img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/flags/vn.svg" alt="VN" title="VN"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/BgcwfBvyWLqFqOr/"><img class="img-responsive" src="images/sibgu/img/flags/vn.svg" alt="VN" title="VN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/1vZN1lyy1HXHvwe/"><img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/flags/mn.svg" alt="MG" title="MG"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/1vZN1lyy1HXHvwe/"><img class="img-responsive" src="images/sibgu/img/flags/mn.svg" alt="MG" title="MG"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -975,7 +975,7 @@
 
                         <div class="main-title-wrap clearfix">
                             <a href="/">
-                                <img class="main-logo" src="/sibgu/static/src/images/sibgu/img/main_logo.svg">
+                                <img class="main-logo" src="images/sibgu/img/main_logo.svg">
                                 <span class="main-title-container">
                                         <h1 class="main-title">
                                             Сибирский государственный университет<br> науки и технологий
@@ -989,16 +989,16 @@
                             <div class="other-func-item clearfix">
                                 <ul class="flags-list clearfix">
                                     <li>
-                                        <a target="_blank" href="http://en.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/flags/gb.svg" alt="EN"></a>
+                                        <a target="_blank" href="http://en.sibsau.ru/"><img src="images/sibgu/img/flags/gb.svg" alt="EN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/NsN3Z7Bsc7qKT9M"><img src="/sibgu/static/src/images/sibgu/img/flags/cn.svg" alt="CN"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/NsN3Z7Bsc7qKT9M"><img src="images/sibgu/img/flags/cn.svg" alt="CN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/BgcwfBvyWLqFqOr"><img src="/sibgu/static/src/images/sibgu/img/flags/vn.svg" alt="VN"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/BgcwfBvyWLqFqOr"><img src="images/sibgu/img/flags/vn.svg" alt="VN"></a>
                                     </li>
                                     <li>
-                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/1vZN1lyy1HXHvwe"><img src="/sibgu/static/src/images/sibgu/img/flags/mn.svg" alt="MN"></a>
+                                        <a target="_blank" href="https://disk.sibsau.ru/index.php/s/1vZN1lyy1HXHvwe"><img src="images/sibgu/img/flags/mn.svg" alt="MN"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -1364,7 +1364,7 @@
                             <div class="col-xxlg-20 col-xxlg-offset-2 col-xlg-22 col-xlg-offset-1">
                                 <div class="col-xxlg-6 col-xlg-8 col-md-6 col-rector-img">
                                     <div class="wrap-rector-img">
-                                        <img class="img-responsive" src="/sibgu/static/src/images/sibgu/img/rector.jpg" alt="Акбулатов Эдхам Шукриевич">
+                                        <img class="img-responsive" src="images/sibgu/img/rector.jpg" alt="Акбулатов Эдхам Шукриевич">
                                     </div>
                                 </div>
                                 <div class="col-xxlg-18 col-xlg-8 col-md-18 col-rector-content">
@@ -1391,7 +1391,7 @@
 
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 248px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/students.svg" alt="Студенты">
+                                    <img class="img-responsive" src="images/sibgu/infographics/students.svg" alt="Студенты">
                                     <strong class="statistics-counter">19000</strong>
                                     <p>Обучающихся студентов</p>
                                 </div>
@@ -1399,7 +1399,7 @@
 
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 248px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/teacher.svg" alt="Преподаватели">
+                                    <img class="img-responsive" src="images/sibgu/infographics/teacher.svg" alt="Преподаватели">
                                     <strong class="statistics-counter">1340</strong>
                                     <p>Квалифицированных преподавателей</p>
                                 </div>
@@ -1407,7 +1407,7 @@
 
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 272px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/hobbi.svg" alt="Творчество и спорт">
+                                    <img class="img-responsive" src="images/sibgu/infographics/hobbi.svg" alt="Творчество и спорт">
                                     <strong class="statistics-counter">50</strong>
                                     <p>Групп для спортивной и творческой<br>реализации</p>
                                 </div>
@@ -1415,7 +1415,7 @@
 
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 272px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/partner.svg" alt="Компании - работадатели">
+                                    <img class="img-responsive" src="images/sibgu/infographics/partner.svg" alt="Компании - работадатели">
                                     <strong class="statistics-counter">300</strong>
                                     <p>Соглашений о сотрудничестве с<br>компаниями-работодателями</p>
                                 </div>
@@ -1423,7 +1423,7 @@
 
                             <div class="col-md-6 col-md-offset-3 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 248px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/inst.svg" alt="Институты и колледжи">
+                                    <img class="img-responsive" src="images/sibgu/infographics/inst.svg" alt="Институты и колледжи">
                                     <strong class="statistics-counter">18</strong>
                                     <p>Институтов, факультетов и колледжей</p>
                                 </div>
@@ -1431,7 +1431,7 @@
 
                             <div class="col-md-6 col-xs-12">
                                 <div class="wrap-infographics-content" style="height: 248px;">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/corp.svg" alt="Учебно-лабораторные корпуса">
+                                    <img class="img-responsive" src="images/sibgu/infographics/corp.svg" alt="Учебно-лабораторные корпуса">
                                     <strong class="statistics-counter">28</strong>
                                     <p>Учебно-лабораторных корпусов</p>
                                 </div>
@@ -1439,7 +1439,7 @@
 
                             <div class="col-md-6 col-xs-24">
                                 <div class="wrap-infographics-content" style="">
-                                    <img class="img-responsive" src="/sibgu/static/src/images/sibgu/infographics/hostel.svg" alt="Общежитий для иногородних студентов">
+                                    <img class="img-responsive" src="images/sibgu/infographics/hostel.svg" alt="Общежитий для иногородних студентов">
                                     <strong class="statistics-counter">8</strong>
                                     <p>Общежитий для иногородних<br>студентов</p>
                                 </div>
@@ -1461,7 +1461,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://iskrakb.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/isk.png" alt="Искра">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/isk.png" alt="Искра">
                                                     <strong>АО «КБ «Искра»</strong>
                                                 </a>
                                             </div>
@@ -1469,7 +1469,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://ksc.krasn.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/logo-fic-ksc.png" alt="КНЦ СО РАН">
+                                                    <img src="images/sibgu/img/partners/logo-fic-ksc.png" alt="КНЦ СО РАН">
                                                     <strong>«Красноярский научный<br>центр» СО РАН</strong>
                                                 </a>
                                             </div>
@@ -1477,7 +1477,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://кртз.рф/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/npp-radio.svg" alt="Радиосвязь">
+                                                    <img src="images/sibgu/img/partners/npp-radio.svg" alt="Радиосвязь">
                                                     <strong>АО «НПП «Радиосвязь»</strong>
                                                 </a>
                                             </div>
@@ -1485,7 +1485,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://krasnoyarsk.rcfh.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/rczc.png" alt="Российский центр защиты леса">
+                                                    <img src="images/sibgu/img/partners/rczc.png" alt="Российский центр защиты леса">
                                                     <strong>ФБУ «Российский центр защиты леса»</strong>
                                                 </a>
                                             </div>
@@ -1493,7 +1493,7 @@
                                         <div class="owl-item active" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="https://www.iss-reshetnev.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/iss.jpg" alt="АО ИСС">
+                                                    <img src="images/sibgu/img/partners/iss.jpg" alt="АО ИСС">
                                                     <strong>АО «Информационные<br>стутниковые системы»</strong>
                                                 </a>
                                             </div>
@@ -1501,7 +1501,7 @@
                                         <div class="owl-item active" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://krasm.com/news/news.aspx" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/krasmash.svg" alt="Красмаш">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/krasmash.svg" alt="Красмаш">
                                                     <strong>АО «Красмаш»</strong>
                                                 </a>
                                             </div>
@@ -1509,7 +1509,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://www.biryusa.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/birusa.svg" alt="Бирюса">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/birusa.svg" alt="Бирюса">
                                                     <strong>ОАО «Красноярский завод<br>холодильников «Бирюса»</strong>
                                                 </a>
                                             </div>
@@ -1517,7 +1517,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://www.geockb.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/geo-phisic.svg" alt="Геофизика">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/geo-phisic.svg" alt="Геофизика">
                                                     <strong>АО ЦКБ<br>«Геофизика»</strong>
                                                 </a>
                                             </div>
@@ -1525,7 +1525,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://iskrakb.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/isk.png" alt="Искра">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/isk.png" alt="Искра">
                                                     <strong>АО «КБ «Искра»</strong>
                                                 </a>
                                             </div>
@@ -1533,7 +1533,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://ksc.krasn.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/logo-fic-ksc.png" alt="КНЦ СО РАН">
+                                                    <img src="images/sibgu/img/partners/logo-fic-ksc.png" alt="КНЦ СО РАН">
                                                     <strong>«Красноярский научный<br>центр» СО РАН</strong>
                                                 </a>
                                             </div>
@@ -1541,7 +1541,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://кртз.рф/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/npp-radio.svg" alt="Радиосвязь">
+                                                    <img src="images/sibgu/img/partners/npp-radio.svg" alt="Радиосвязь">
                                                     <strong>АО «НПП «Радиосвязь»</strong>
                                                 </a>
                                             </div>
@@ -1549,7 +1549,7 @@
                                         <div class="owl-item" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://krasnoyarsk.rcfh.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/rczc.png" alt="Российский центр защиты леса">
+                                                    <img src="images/sibgu/img/partners/rczc.png" alt="Российский центр защиты леса">
                                                     <strong>ФБУ «Российский центр защиты леса»</strong>
                                                 </a>
                                             </div>
@@ -1557,7 +1557,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="https://www.iss-reshetnev.ru/" target="_blank">
-                                                    <img src="/sibgu/static/src/images/sibgu/img/partners/iss.jpg" alt="АО ИСС">
+                                                    <img src="images/sibgu/img/partners/iss.jpg" alt="АО ИСС">
                                                     <strong>АО «Информационные<br>стутниковые системы»</strong>
                                                 </a>
                                             </div>
@@ -1565,7 +1565,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://krasm.com/news/news.aspx" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/krasmash.svg" alt="Красмаш">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/krasmash.svg" alt="Красмаш">
                                                     <strong>АО «Красмаш»</strong>
                                                 </a>
                                             </div>
@@ -1573,7 +1573,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://www.biryusa.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/birusa.svg" alt="Бирюса">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/birusa.svg" alt="Бирюса">
                                                     <strong>ОАО «Красноярский завод<br>холодильников «Бирюса»</strong>
                                                 </a>
                                             </div>
@@ -1581,7 +1581,7 @@
                                         <div class="owl-item cloned" style="width: 398px;">
                                             <div class="wrap-pa-item" style="height: 191px;">
                                                 <a href="http://www.geockb.ru/" target="_blank">
-                                                    <img class="img img-rounded img-responsive" src="/sibgu/static/src/images/sibgu/img/partners/geo-phisic.svg" alt="Геофизика">
+                                                    <img class="img img-rounded img-responsive" src="images/sibgu/img/partners/geo-phisic.svg" alt="Геофизика">
                                                     <strong>АО ЦКБ<br>«Геофизика»</strong>
                                                 </a>
                                             </div>
@@ -1617,157 +1617,157 @@
                             <div class="owl-stage" style="transform: translate3d(-1962px, 0px, 0px); transition: all 0s ease 0s; width: 7606px;">
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://yarpr.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
+                                        <a target="_blank" href="http://yarpr.ru/"><img src="images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://apak.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/apak.jpg" alt="Международная научно-практическая конференция АПАК" title="Международная научно-практическая конференция АПАК"></a>
+                                        <a target="_blank" href="https://apak.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/apak.jpg" alt="Международная научно-практическая конференция АПАК" title="Международная научно-практическая конференция АПАК"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://fdfp-sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/fdfp.jpg" alt="Факультет довузовской и фундаментальной подготовки" title="Факультет довузовской и фундаментальной подготовки"></a>
+                                        <a target="_blank" href="http://fdfp-sibsau.ru/"><img src="images/sibgu/img/bottom_banners/fdfp.jpg" alt="Факультет довузовской и фундаментальной подготовки" title="Факультет довузовской и фундаментальной подготовки"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://sky.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/observatoriya.jpg" alt="Обсерватория СибГУ им. М.Ф. Решетнева" title="Обсерватория СибГУ им. М.Ф. Решетнева"></a>
+                                        <a target="_blank" href="http://sky.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/observatoriya.jpg" alt="Обсерватория СибГУ им. М.Ф. Решетнева" title="Обсерватория СибГУ им. М.Ф. Решетнева"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://studombudsman.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/prava-studentov.jpg" alt="Уполномоченный по правам студентов" title="Уполномоченный по правам студентов"></a>
+                                        <a target="_blank" href="http://studombudsman.ru/"><img src="images/sibgu/img/bottom_banners/prava-studentov.jpg" alt="Уполномоченный по правам студентов" title="Уполномоченный по правам студентов"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://rckas.pro/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/rckp.jpg" alt="РЦКП Космические аппараты и системы" title="РЦКП Космические аппараты и системы"></a>
+                                        <a target="_blank" href="http://rckas.pro/"><img src="images/sibgu/img/bottom_banners/rckp.jpg" alt="РЦКП Космические аппараты и системы" title="РЦКП Космические аппараты и системы"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.iss-reshetnev.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/reshetnev-iss.jpg" alt="Решетнев ОАО ИСС" title="Решетнев ОАО ИСС"></a>
+                                        <a target="_blank" href="https://www.iss-reshetnev.ru/"><img src="images/sibgu/img/bottom_banners/reshetnev-iss.jpg" alt="Решетнев ОАО ИСС" title="Решетнев ОАО ИСС"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://sesm.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/menedzhment-soc-i-ehkonom-sistem.jpg" alt="Менеджмент социальных и экономических систем" title="Менеджмент социальных и экономических систем"></a>
+                                        <a target="_blank" href="https://sesm.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/menedzhment-soc-i-ehkonom-sistem.jpg" alt="Менеджмент социальных и экономических систем" title="Менеджмент социальных и экономических систем"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item active" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.roscosmos.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/roskosmos.jpg" alt="Роскосмос" title="Роскосмос"></a>
+                                        <a target="_blank" href="https://www.roscosmos.ru/"><img src="images/sibgu/img/bottom_banners/roskosmos.jpg" alt="Роскосмос" title="Роскосмос"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item active" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://reshetnev.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/reshetnevskie-chteniya.jpg" alt="Решетневские чтения" title="Решетневские чтения"></a>
+                                        <a target="_blank" href="https://reshetnev.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/reshetnevskie-chteniya.jpg" alt="Решетневские чтения" title="Решетневские чтения"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item active" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.gosuslugi.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/gosuslugi.jpg" alt="Госуслуги" title="Госуслуги"></a>
+                                        <a target="_blank" href="https://www.gosuslugi.ru/"><img src="images/sibgu/img/bottom_banners/gosuslugi.jpg" alt="Госуслуги" title="Госуслуги"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://co.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/hrustalnyj-apelsin.jpg" alt="Хрустальный апельсин" title="Хрустальный апельсин"></a>
+                                        <a target="_blank" href="http://co.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/hrustalnyj-apelsin.jpg" alt="Хрустальный апельсин" title="Хрустальный апельсин"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://www.krasm.com/news/news.aspx"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/krasmash.jpg" alt="КРАСМАШ" title="КРАСМАШ"></a>
+                                        <a target="_blank" href="http://www.krasm.com/news/news.aspx"><img src="images/sibgu/img/bottom_banners/krasmash.jpg" alt="КРАСМАШ" title="КРАСМАШ"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a href="/page/stock-sberbank"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/sberbank.jpg" alt="Сбербанк" title="Сбербанк"></a>
+                                        <a href="/page/stock-sberbank"><img src="images/sibgu/img/bottom_banners/sberbank.jpg" alt="Сбербанк" title="Сбербанк"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a href="/page/stock-prsb"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/prsb.jpg" alt="Промсвязьбанк" title="Промсвязьбанк"></a>
+                                        <a href="/page/stock-prsb"><img src="images/sibgu/img/bottom_banners/prsb.jpg" alt="Промсвязьбанк" title="Промсвязьбанк"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://yarpr.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
+                                        <a target="_blank" href="http://yarpr.ru/"><img src="images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://apak.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/apak.jpg" alt="Международная научно-практическая конференция АПАК" title="Международная научно-практическая конференция АПАК"></a>
+                                        <a target="_blank" href="https://apak.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/apak.jpg" alt="Международная научно-практическая конференция АПАК" title="Международная научно-практическая конференция АПАК"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://fdfp-sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/fdfp.jpg" alt="Факультет довузовской и фундаментальной подготовки" title="Факультет довузовской и фундаментальной подготовки"></a>
+                                        <a target="_blank" href="http://fdfp-sibsau.ru/"><img src="images/sibgu/img/bottom_banners/fdfp.jpg" alt="Факультет довузовской и фундаментальной подготовки" title="Факультет довузовской и фундаментальной подготовки"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://sky.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/observatoriya.jpg" alt="Обсерватория СибГУ им. М.Ф. Решетнева" title="Обсерватория СибГУ им. М.Ф. Решетнева"></a>
+                                        <a target="_blank" href="http://sky.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/observatoriya.jpg" alt="Обсерватория СибГУ им. М.Ф. Решетнева" title="Обсерватория СибГУ им. М.Ф. Решетнева"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://studombudsman.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/prava-studentov.jpg" alt="Уполномоченный по правам студентов" title="Уполномоченный по правам студентов"></a>
+                                        <a target="_blank" href="http://studombudsman.ru/"><img src="images/sibgu/img/bottom_banners/prava-studentov.jpg" alt="Уполномоченный по правам студентов" title="Уполномоченный по правам студентов"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://rckas.pro/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/rckp.jpg" alt="РЦКП Космические аппараты и системы" title="РЦКП Космические аппараты и системы"></a>
+                                        <a target="_blank" href="http://rckas.pro/"><img src="images/sibgu/img/bottom_banners/rckp.jpg" alt="РЦКП Космические аппараты и системы" title="РЦКП Космические аппараты и системы"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.iss-reshetnev.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/reshetnev-iss.jpg" alt="Решетнев ОАО ИСС" title="Решетнев ОАО ИСС"></a>
+                                        <a target="_blank" href="https://www.iss-reshetnev.ru/"><img src="images/sibgu/img/bottom_banners/reshetnev-iss.jpg" alt="Решетнев ОАО ИСС" title="Решетнев ОАО ИСС"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://sesm.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/menedzhment-soc-i-ehkonom-sistem.jpg" alt="Менеджмент социальных и экономических систем" title="Менеджмент социальных и экономических систем"></a>
+                                        <a target="_blank" href="https://sesm.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/menedzhment-soc-i-ehkonom-sistem.jpg" alt="Менеджмент социальных и экономических систем" title="Менеджмент социальных и экономических систем"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.roscosmos.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/roskosmos.jpg" alt="Роскосмос" title="Роскосмос"></a>
+                                        <a target="_blank" href="https://www.roscosmos.ru/"><img src="images/sibgu/img/bottom_banners/roskosmos.jpg" alt="Роскосмос" title="Роскосмос"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://reshetnev.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/reshetnevskie-chteniya.jpg" alt="Решетневские чтения" title="Решетневские чтения"></a>
+                                        <a target="_blank" href="https://reshetnev.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/reshetnevskie-chteniya.jpg" alt="Решетневские чтения" title="Решетневские чтения"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="https://www.gosuslugi.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/gosuslugi.jpg" alt="Госуслуги" title="Госуслуги"></a>
+                                        <a target="_blank" href="https://www.gosuslugi.ru/"><img src="images/sibgu/img/bottom_banners/gosuslugi.jpg" alt="Госуслуги" title="Госуслуги"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://co.sibsau.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/hrustalnyj-apelsin.jpg" alt="Хрустальный апельсин" title="Хрустальный апельсин"></a>
+                                        <a target="_blank" href="http://co.sibsau.ru/"><img src="images/sibgu/img/bottom_banners/hrustalnyj-apelsin.jpg" alt="Хрустальный апельсин" title="Хрустальный апельсин"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://www.krasm.com/news/news.aspx"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/krasmash.jpg" alt="КРАСМАШ" title="КРАСМАШ"></a>
+                                        <a target="_blank" href="http://www.krasm.com/news/news.aspx"><img src="images/sibgu/img/bottom_banners/krasmash.jpg" alt="КРАСМАШ" title="КРАСМАШ"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a href="/page/stock-sberbank"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/sberbank.jpg" alt="Сбербанк" title="Сбербанк"></a>
+                                        <a href="/page/stock-sberbank"><img src="images/sibgu/img/bottom_banners/sberbank.jpg" alt="Сбербанк" title="Сбербанк"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a href="/page/stock-prsb"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/prsb.jpg" alt="Промсвязьбанк" title="Промсвязьбанк"></a>
+                                        <a href="/page/stock-prsb"><img src="images/sibgu/img/bottom_banners/prsb.jpg" alt="Промсвязьбанк" title="Промсвязьбанк"></a>
                                     </div>
                                 </div>
                                 <div class="owl-item cloned" style="width: 245.333px;">
                                     <div class="links-other-item">
-                                        <a target="_blank" href="http://yarpr.ru/"><img src="/sibgu/static/src/images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
+                                        <a target="_blank" href="http://yarpr.ru/"><img src="images/sibgu/img/bottom_banners/yappr.jpg" alt="ЯPPR" title="ЯPPR"></a>
                                     </div>
                                 </div>
                             </div>
@@ -1880,13 +1880,13 @@
                                     <h5>Социальные сети</h5>
                                     <ul class="foot-social-list">
                                         <li>
-                                            <a target="_blank" href="https://vk.com/sibgu_ru"><img src="/sibgu/static/src/images/sibgu/img/social-icon/vk.svg" alt="vk"></a>
+                                            <a target="_blank" href="https://vk.com/sibgu_ru"><img src="images/sibgu/img/social-icon/vk.svg" alt="vk"></a>
                                         </li>
                                         <li>
-                                            <a target="_blank" href="http://www.facebook.com/pages/%D0%A1%D0%B8%D0%B1%D0%93%D0%90%D0%A3-%D0%B8%D0%BC-%D0%B0%D0%BA-%D0%9C%D0%A4-%D0%A0%D0%B5%D1%88%D0%B5%D1%82%D0%BD%D0%B5%D0%B2%D0%B0/247376128622717"><img src="/sibgu/static/src/images/sibgu/img/social-icon/facebook.svg" alt="facebook"></a>
+                                            <a target="_blank" href="http://www.facebook.com/pages/%D0%A1%D0%B8%D0%B1%D0%93%D0%90%D0%A3-%D0%B8%D0%BC-%D0%B0%D0%BA-%D0%9C%D0%A4-%D0%A0%D0%B5%D1%88%D0%B5%D1%82%D0%BD%D0%B5%D0%B2%D0%B0/247376128622717"><img src="images/sibgu/img/social-icon/facebook.svg" alt="facebook"></a>
                                         </li>
                                         <li>
-                                            <a target="_blank" href="https://www.instagram.com/sibgu.ru/"><img src="/sibgu/static/src/images/sibgu/img/social-icon/instagram.svg" alt="instagram"></a>
+                                            <a target="_blank" href="https://www.instagram.com/sibgu.ru/"><img src="images/sibgu/img/social-icon/instagram.svg" alt="instagram"></a>
                                         </li>
                                     </ul>
                                 </div>
@@ -1979,8 +1979,8 @@
                 </div>
             </div>
 
-            <script src="/sibgu/static/src/js/sibgu/jquery-libs.js"></script>
-            <script src="/sibgu/static/src/js/sibgu/common.js"></script>
+            <script src="js/sibgu/jquery-libs.js"></script>
+            <script src="js/sibgu/common.js"></script>
 
             <script type="text/javascript">
                 (function (d, w, c) {
