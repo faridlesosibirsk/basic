@@ -9408,48 +9408,48 @@ div.carousel .item.text_only .container>.carousel-image {
     font-family: "Oswald-Regular";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/Oswald/OswaldRegular/Oswald-Regular.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/Oswald/OswaldRegular/Oswald-Regular.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/Oswald/OswaldRegular/Oswald-Regular.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/Oswald/OswaldRegular/Oswald-Regular.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/Oswald/OswaldRegular/Oswald-Regular.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/Oswald/OswaldRegular/Oswald-Regular.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/Oswald/OswaldRegular/Oswald-Regular.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/Oswald/OswaldRegular/Oswald-Regular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "MyriadPro-Regular";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "MyriadPro-SemiBold";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/MyriadPro/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "OpenSans-Regular";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansRegular/OpenSansRegular.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansRegular/OpenSansRegular.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "OpenSans-SemiBold";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/OpenSans/OpenSansSemiBold/OpenSansSemiBold.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "OpenSansCondensed-Bold";
     font-weight: normal;
     font-style: normal;
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.eot");
-    src: url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.eot?#iefix") format("embedded-opentype"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.woff") format("woff"), url("/sibgu/static/src/css/sibgu/css/../fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.ttf") format("truetype");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.eot");
+    src: url("sibgu/static/src/css/sibgu/fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.eot?#iefix") format("embedded-opentype"), url("sibgu/static/src/css/sibgu/fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.woff") format("woff"), url("sibgu/static/src/css/sibgu/fonts/OpenSansCondensed/OpenSansCondensedBold/OpenSansCondensedBold.ttf") format("truetype");
 }
 
 html {

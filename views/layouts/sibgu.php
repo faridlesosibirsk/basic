@@ -29,10 +29,10 @@
 
     <script async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async="" src="https://mc.yandex.ru/metrika/watch.js"></script>
-    <script type="text/javascript" src="/web/content/5208-6b79162/web.assets_common.js"></script>
+    <script type="text/javascript" src="content/5208-6b79162/web.assets_common.js"></script>
     <style type="text/css"></style>
 
-    <script type="text/javascript" src="/web/content/12438-cca18e1/website.assets_frontend.js"></script>
+    <script type="text/javascript" src="content/12438-cca18e1/website.assets_frontend.js"></script>
     <link rel="shortcut icon" href="images/sibgu/img/favicon/favicon.ico" type="image/x-icon">
     <link rel="icon" type="image/png" sizes="32x32" href="images/sibgu/img/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/sibgu/img/favicon/favicon-16x16.png">
