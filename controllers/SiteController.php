@@ -38,6 +38,8 @@ class SiteController extends Controller {
 
         if (($title->load(Yii::$app->request->post()) && $title->validate())
             and ($paragraf->load(Yii::$app->request->post()) && $paragraf->validate())) {
+            $title->save();
+            $paragraf->save();
             return $this->render('kafedra', ['title' => $title, 
                 'paragraf' => $paragraf]);
         } else {
