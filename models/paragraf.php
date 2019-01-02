@@ -6,7 +6,7 @@ use yii\db\ActiveRecord;
 
 class paragraf extends ActiveRecord {
 
-    //public $name;
+    public $name;
 
     public function rules() {
         return [

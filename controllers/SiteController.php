@@ -31,21 +31,24 @@ class SiteController extends Controller {
             return $this->render('entry', ['model' => $model]);
         }
     }
-    
+
     public function actionAdmin() {
         $title = new title();
         $paragraf = new paragraf();
 
         if (($title->load(Yii::$app->request->post()) && $title->validate())
-            and ($paragraf->load(Yii::$app->request->post()) && $paragraf->validate())) {
-            $title->save();
-            $paragraf->save();
-            return $this->render('kafedra', ['title' => $title, 
-                'paragraf' => $paragraf]);
+                and ( $paragraf->load(Yii::$app->request->post()) && $paragraf->validate())) {
+            Yii::$app->db->createCommand('UPDATE title SET name=1 WHERE 1')->execute();
+            //$title->update(['name' => 'name'], [1]);
+            //$title->save();
+            //$paragraf->update(['name' => 'name'], [1]);
+            //$paragraf->save();
+            return $this->render('kafedra', ['title' => $title,
+                        'paragraf' => $paragraf]);
         } else {
             // либо страница отображается первый раз, либо есть ошибка в данных
-            return $this->render('admin', ['title' => $title, 
-                'paragraf' => $paragraf]);
+            return $this->render('admin', ['title' => $title,
+                        'paragraf' => $paragraf]);
         }
     }
 
